@@ -143,6 +143,46 @@ hr{
     color:#f63fa1;
 }
 
+/* Photo/Product Album starts  */
+
+.album-description{
+    text-align: center;
+}
+.photo-frame{
+    width:200px;
+   
+    position:relative;
+    box-shadow: 0 0 15px #cfc1c1;
+    border-radius: 10px;
+}
+.photo-frame img{
+    width:100%;
+   
+    border-radius: 10px;
+}
+.photo-description{
+    position:absolute;
+    width:200px;
+    top:0;
+    color:white;
+    background-color: rgba(85, 5, 85, 0.7);
+    display:none;
+}
+.photo-frame:hover .photo-description{
+    display:block;
+
+}
+.photo-album{
+    display:flex;
+    margin-top:50px;
+    margin-bottom: 100px;
+    justify-content: space-around;
+    
+
+}
+
+/* product/photo album ends  */
+
 /* ---------------FOOTER---------- */
 footer{
     height:25vh;
@@ -161,3 +201,5 @@ footer p a{
     padding-right: 10px;
     
 }
+
+

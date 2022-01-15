@@ -42,6 +42,14 @@
         grid-template-columns: repeat(1, 1fr);
         justify-items:center ;
     }
+
+    /* PRODUCT ALBUM STARTS HERE  */
+    .photo-album{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
    
 }
 
@@ -92,7 +100,3 @@
 
 /* 577px to 768px ends here  */
 
-/* 769px to 1400px ends here  */
-@media only screen and (max-width:1400px){
-
-}
